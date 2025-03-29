@@ -4,7 +4,7 @@ import os
 import base64
 
 # Configure API key
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCkzZgM6ejc3y0WuUrCWO05MD599q4a4ZA'
+os.environ['GOOGLE_API_KEY'] = ''
 genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
 st.set_page_config(page_title="Mental Health Chatbot")
