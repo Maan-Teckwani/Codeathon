@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#111a22] dark group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#243647] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24 18.4228L42 11.475V34.3663C42 34.7796 41.7457 35.1504 41.3601 35.2992L24 42V18.4228Z"
+                  fill="currentColor"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M24 8.18819L33.4123 11.574L24 15.2071L14.5877 11.574L24 8.18819ZM9 15.8487L21 20.4805V37.6263L9 32.9945V15.8487ZM27 37.6263V20.4805L39 15.8487V32.9945L27 37.6263ZM25.354 2.29885C24.4788 1.98402 23.5212 1.98402 22.646 2.29885L4.98454 8.65208C3.7939 9.08038 3 10.2097 3 11.475V34.3663C3 36.0196 4.01719 37.5026 5.55962 38.098L22.9197 44.7987C23.6149 45.0671 24.3851 45.0671 25.0803 44.7987L42.4404 38.098C43.9828 37.5026 45 36.0196 45 34.3663V11.475C45 10.2097 44.2061 9.08038 43.0155 8.65208L25.354 2.29885Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Study Buddy</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-white text-sm font-medium leading-normal" href="#">Home</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Features</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Pricing</a>
+              <a class="text-white text-sm font-medium leading-normal" href="#">Help</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#1980e6] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Get started</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-[512px] max-w-[512px] py-5 max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://cdn.usegalileo.ai/sdxl10/c0563641-9184-4df0-943e-66c52764c010.png");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Welcome to Study Buddy
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Your personal AI-powered study assistant and mental health chatbot. Choose your path below:
+                    </h2>
+                  </div>
+                  <div class="flex-wrap gap-3 flex justify-center">
+                    <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#1980e6] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                    >
+                      <span class="truncate">Start study session</span>
+                    </button>
+                    <button
+                      class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#243647] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                    >
+                      <span class="truncate">Need help with stress or anxiety?</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">What's new</h2>
+            <div class="p-4 @container">
+              <div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/166622b4-522b-4880-890a-0ee6d1735a00.png");'
+                ></div>
+                <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-1 py-4 @xl:px-4">
+                  <p class="text-[#93adc8] text-sm font-normal leading-normal">New feature</p>
+                  <p class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Mental health chatbot</p>
+                  <div class="flex items-end gap-3 justify-between">
+                    <p class="text-[#93adc8] text-base font-normal leading-normal">
+                      Our chatbot can help you manage stress and anxiety. It gives you tips and advice for feeling better.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 @container">
+              <div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/1e9a4b45-8181-491d-bf1a-a28bad9504b0.png");'
+                ></div>
+                <div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-1 py-4 @xl:px-4">
+                  <p class="text-[#93adc8] text-sm font-normal leading-normal">Improved feature</p>
+                  <p class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">AI-powered study sessions</p>
+                  <div class="flex items-end gap-3 justify-between">
+                    <p class="text-[#93adc8] text-base font-normal leading-normal">
+                      Study Buddy now has more powerful AI models. This means it can help you with more types of questions and problems.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
